@@ -1,0 +1,134 @@
+body{
+  background-color: rgb(0, 0, 0) !important;
+}
+
+main {
+  background-image:url('../img/bgonoma.jpg');
+  height: auto;
+  background-repeat: no-repeat;
+  background-size:100vmax;
+  background-attachment: fixed;
+
+}
+
+.container {
+  max-width: 960px;
+}
+
+
+
+#cont1 {
+background-color: #ffbf0000;
+position: fixed;
+   
+}
+#cont2 {
+background-color: #000000ee;
+}
+#cont3 {
+  background-color: #ffbf003d;
+  }
+  #cont4 {
+    background-color: #000000ee;
+    }
+    #cont5 {
+      background-color: #ff99009d;
+      overflow-y: auto;
+      }
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, 0.884);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #ffc400;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #ffa600;
+  text-decoration: none;
+}
+
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 10%;
+  bottom: -30%;
+  width: 300px;
+  height: 540px;
+  background-color: #333;
+  border-radius: 21px;
+  transform: rotate(30deg);
+}
+
+.product-device::before {
+  position: absolute;
+  top: 10%;
+  right: 10px;
+  bottom: 10%;
+  left: 10px;
+  content: "";
+  background-color: rgba(255, 255, 255, .1);
+  border-radius: 5px;
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+  background-color: #ffae0083;
+}
+
+.footer {
+  background-color: rgb(0, 0, 0);
+  max-width: 100% !important;
+  height: 100px;
+  
+}
+
+.footer-cont {
+  align-items: center;
+  margin-left: 3%;
+}
+
+.tusblux {
+  color: #ffbf00;
+}
+.tusbluxbtn {
+  background-color: transparent;
+  color: #ffc400 !important;
+
+}
+.tusbluxbtn:hover{
+  color: #ffa600 !important;
+  border-color: transparent;
+  font-size: 1.25rem;
+}
+
+.navtus {
+  position: absolute !important;
+  display: flex;
+  left: 1px;
+
+}
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
